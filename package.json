@@ -1,0 +1,32 @@
+{
+  "name": "duticalls-marketing-site",
+  "version": "1.0.0",
+  "description": "Multi-page marketing website for DutiCalls HRM SaaS platform",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "hrm",
+    "attendance",
+    "workforce-management",
+    "duticalls"
+  ],
+  "author": "DutiCalls",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
