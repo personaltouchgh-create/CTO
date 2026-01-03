@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schedule an appointment with DutiCalls sales team to discuss your workforce management needs.">
+    <title>Book Appointment - DutiCalls HRM Platform</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="index.html">
+                            <h1>DutiCalls</h1>
+                        </a>
+                    </div>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="demo-request.html" class="btn btn-primary">Request Demo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Book an Appointment</h1>
+                <p>Schedule a consultation with our sales team</p>
+            </div>
+        </section>
+
+        <!-- Appointment Booking Section -->
+        <section class="appointment-section">
+            <div class="container">
+                <div class="appointment-wrapper">
+                    <div class="appointment-info">
+                        <h2>What to Expect</h2>
+                        <div class="appointment-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Choose Your Time</h4>
+                                    <p>Select a date and time that works best for your schedule</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Tell Us About Your Needs</h4>
+                                    <p>Share information about your company and requirements</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Get Expert Guidance</h4>
+                                    <p>Meet with our team to discuss solutions tailored to you</p>
+                                </div>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Move Forward</h4>
+                                    <p>Get a custom proposal and implementation plan</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="appointment-types">
+                            <h3>Meeting Types Available</h3>
+                            <div class="meeting-type">
+                                <h4>Sales Consultation (30 min)</h4>
+                                <p>Discuss pricing, plans, and which solution fits your needs</p>
+                            </div>
+                            <div class="meeting-type">
+                                <h4>Technical Deep Dive (45 min)</h4>
+                                <p>Explore integrations, API access, and technical requirements</p>
+                            </div>
+                            <div class="meeting-type">
+                                <h4>Enterprise Planning (60 min)</h4>
+                                <p>Custom solutions for large organizations and complex needs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="appointment-form-wrapper">
+                        <form class="appointment-form" id="appointmentForm">
+                            <h3>Schedule Your Appointment</h3>
+
+                            <div class="form-group">
+                                <label for="meetingType">Meeting Type *</label>
+                                <select id="meetingType" name="meetingType" required>
+                                    <option value="">Select meeting type</option>
+                                    <option value="sales-30">Sales Consultation (30 min)</option>
+                                    <option value="technical-45">Technical Deep Dive (45 min)</option>
+                                    <option value="enterprise-60">Enterprise Planning (60 min)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Work Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="company">Company Name *</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="jobTitle">Job Title *</label>
+                                <input type="text" id="jobTitle" name="jobTitle" required placeholder="e.g., HR Manager, Operations Director">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="companySize">Company Size *</label>
+                                <select id="companySize" name="companySize" required>
+                                    <option value="">Select company size</option>
+                                    <option value="1-25">1-25 employees</option>
+                                    <option value="26-100">26-100 employees</option>
+                                    <option value="101-500">101-500 employees</option>
+                                    <option value="501-1000">501-1000 employees</option>
+                                    <option value="1000+">1000+ employees</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="appointmentDate">Preferred Date *</label>
+                                <input type="date" id="appointmentDate" name="appointmentDate" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="appointmentTime">Preferred Time *</label>
+                                <select id="appointmentTime" name="appointmentTime" required>
+                                    <option value="">Select time</option>
+                                    <option value="9:00">9:00 AM</option>
+                                    <option value="9:30">9:30 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="10:30">10:30 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="12:30">12:30 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="13:30">1:30 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="14:30">2:30 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="15:30">3:30 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="16:30">4:30 PM</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="timezone">Timezone *</label>
+                                <select id="timezone" name="timezone" required>
+                                    <option value="">Select timezone</option>
+                                    <option value="PST">Pacific Time (PST)</option>
+                                    <option value="MST">Mountain Time (MST)</option>
+                                    <option value="CST">Central Time (CST)</option>
+                                    <option value="EST">Eastern Time (EST)</option>
+                                    <option value="GMT">GMT</option>
+                                    <option value="CET">Central European Time (CET)</option>
+                                    <option value="IST">India Standard Time (IST)</option>
+                                    <option value="AEST">Australian Eastern Time (AEST)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="meetingPlatform">Preferred Meeting Platform *</label>
+                                <select id="meetingPlatform" name="meetingPlatform" required>
+                                    <option value="">Select platform</option>
+                                    <option value="zoom">Zoom</option>
+                                    <option value="teams">Microsoft Teams</option>
+                                    <option value="meet">Google Meet</option>
+                                    <option value="phone">Phone Call</option>
+                                    <option value="in-person">In-Person (if possible)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="topics">Topics to Discuss *</label>
+                                <textarea id="topics" name="topics" rows="4" required placeholder="What would you like to discuss during this appointment? (e.g., pricing, specific features, implementation timeline)"></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="additionalNotes">Additional Notes</label>
+                                <textarea id="additionalNotes" name="additionalNotes" rows="3" placeholder="Any other information you'd like to share..."></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="reminders" value="yes" checked>
+                                    <span>Send me appointment reminders</span>
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary btn-large btn-full">Book Appointment</button>
+                            </div>
+
+                            <div class="form-message" id="formMessage"></div>
+
+                            <p class="form-note">You'll receive a calendar invitation within 2 hours of submitting this form.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="appointment-faq">
+            <div class="container">
+                <h2 class="section-title">Common Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-card">
+                        <h4>How long will the appointment take?</h4>
+                        <p>Appointments range from 30-60 minutes depending on the meeting type you select.</p>
+                    </div>
+                    <div class="faq-card">
+                        <h4>Can I reschedule my appointment?</h4>
+                        <p>Yes, you can reschedule up to 4 hours before your scheduled time by clicking the link in your confirmation email.</p>
+                    </div>
+                    <div class="faq-card">
+                        <h4>What should I prepare?</h4>
+                        <p>Have information about your team size, current tools, and specific requirements ready to discuss.</p>
+                    </div>
+                    <div class="faq-card">
+                        <h4>Will I get a recording?</h4>
+                        <p>Yes, we can provide a recording and follow-up materials after the meeting upon request.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DutiCalls</h3>
+                    <p>Transform your workforce management with powerful, easy-to-use HRM solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="demo-request.html">Request Demo</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 DutiCalls. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
